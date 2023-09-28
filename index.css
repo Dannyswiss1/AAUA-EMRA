@@ -201,3 +201,18 @@ body #aaua {
   padding-bottom: 40px;
 } 
 } 
+
+.feedback-body {
+  width: 340px;
+  text-align: center;
+  background: rgb(224, 224, 78);
+  border-radius: 6px;
+  border: 1px solid blueviolet;
+  margin: 10% auto;
+  color: rgb(43, 4, 80);
+  padding-bottom: 40px;
+}
+
+.feedback-form {
+  padding-top: 16px;
+}
