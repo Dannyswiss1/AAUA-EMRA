@@ -139,13 +139,13 @@ body #aaua {
   width: 150px;
 }
 
-/* @media (max-width: 480px) {
+ @media (max-width: 480px) {
   body {
     background: rgb(231, 190, 137);
     width: 200px;
 }
 
-.splash {
+/* .splash {
   width: 300px;
   text-align: center;
   background: rgb(224, 224, 78);
@@ -200,4 +200,4 @@ body #aaua {
   color: rgb(43, 4, 80);
   padding-bottom: 40px;
 }
-} */
+} */ 
