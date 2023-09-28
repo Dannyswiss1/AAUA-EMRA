@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css">
+    <title>AAUA-EMRA</title>
+  </head>
+  <body>
+    <div class="incident-body">
+      <div class="header2">
+        <div class="head">
+          <img src="img/aaua_logo.png" alt="logo" class="logo1" />
+        <h2 class="head">Report Incident</h2>
+        </div>
+  
+      <div class="logo-header">
+        <h2>Miss Janet Smith</h2>
+        <h4>level: 400</h4>
+        <h4>Semester: Second</h4>
+        <h4>Computer Science</h4>
+      </div>
+      </div>
+
+    <div class="incident-summary">
+      <form action="">
+        <label for="NOS">Name of Student</label> <br /> <br>
+        <input type="text" id="NOS" placeholder="Name of Student" /> <br />
+        <br />
+        <label for="level">Select Level</label> <br /> 
+        <select name="level" id="level" add()>
+          <option value="100">100</option>
+          <option value="200">200</option>
+          <option value="300">300</option>
+          <option value="400">400</option>
+          <option value="500">500</option>
+        </select>
+
+        <br />
+        <br />
+        <label for="report-message"> Report Message</label> <br /> <br>
+        <textarea
+          name="report-message"
+          id="report-message"
+          cols="30"
+          rows="5"
+          placeholder="Report Message"
+        ></textarea>
+        <br />
+        <br />
+        <a class="btn" href="#">Upload Photo</a> <br /> <br>
+        <br />
+
+        <a class="btn" href="#">Submit</a>
+      </form>
+    </div>
+    </div>
+  </body>
+</html>

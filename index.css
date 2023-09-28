@@ -1,0 +1,203 @@
+body {
+  background: rgb(231, 190, 137);
+}
+
+body #aaua {
+  text-align: center;
+}
+
+#aaua {
+  width: 375px;
+  text-align: center;
+  background: rgb(224, 224, 78);
+  border: 1px solid blueviolet;
+  border-radius: 6px;
+  margin: 10% auto;
+  color: rgb(43, 4, 80);
+  padding-top: 16px;
+}
+
+.logo {
+  width: 150px;
+}
+
+.header2 {
+    background: blueviolet;
+    color: rgb(247, 243, 250);
+    border-radius: 5px;
+    padding-top: 1px;
+    padding-bottom: 3px;
+    
+}
+
+.head {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo-header {
+    display: flex;
+}
+
+
+.aaua2 {
+    width: 375px;
+  text-align: center;
+  background: rgb(224, 224, 78);
+  border: 1px solid blueviolet;
+  border-radius: 6px;
+  margin: 10% auto;
+  color: rgb(43, 4, 80);
+  padding-bottom: 16px;
+}
+
+.logo1 {
+    width: 100px;
+    text-align: center;
+    /* margin: 20px auto; */
+    margin: 0;
+    padding: 0;
+    height: 100px;
+}
+
+.session {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding-left: 90px;
+}
+
+.btn {
+    padding: 10px 40px;
+    text-decoration: none;
+    background-color: blueviolet;
+    border-radius: 6px;
+    color: rgb(224, 224, 78);
+    font-weight: 700;
+}
+
+.dashboard-icon {
+  width: 50px;
+}
+
+ .incident-body {
+  width: 375px;
+  text-align: center;
+  background: rgb(224, 224, 78);
+  border: 1px solid blueviolet;
+  border-radius: 6px;
+  margin: 10% auto;
+  color: rgb(43, 4, 80);
+  padding-bottom: 40px;
+} 
+
+.incident-summary {
+  padding-top: 30px;
+}
+
+ .dashboard-body {
+  width: 375px;
+  text-align: center;
+  background: rgb(224, 224, 78);
+  border-radius: 6px;
+  border: 1px solid blueviolet;
+  margin: 10% auto;
+  color: rgb(43, 4, 80);
+  padding-bottom: 40px;
+} 
+
+.iconi {
+  width: 50px;
+} 
+
+.dashboard-icons {
+  padding-top: 16px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.dashboard-icon {
+  width: 100px;
+  /* border: 1px solid blueviolet; */
+  margin: 20px auto;
+  box-shadow: 5px;
+}
+
+.splash {
+  width: 375px;
+  text-align: center;
+  background: rgb(224, 224, 78);
+  border-radius: 6px;
+  border: 1px solid blueviolet;
+  margin: 10% auto;
+  color: rgb(43, 4, 80);
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+
+.logo2 {
+  width: 150px;
+}
+
+@media (max-width: 480px) {
+  body {
+    background: rgb(231, 190, 137);
+    width: 200px;
+}
+
+.splash {
+  width: 300px;
+  text-align: center;
+  background: rgb(224, 224, 78);
+  border-radius: 6px;
+  border: 1px solid blueviolet;
+  margin: 10% auto;
+  color: rgb(43, 4, 80);
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+
+.dashboard-body {
+  width: 300px;
+  text-align: center;
+  background: rgb(224, 224, 78);
+  border-radius: 6px;
+  border: 1px solid blueviolet;
+  margin: 10% auto;
+  color: rgb(43, 4, 80);
+  padding-bottom: 40px;
+}
+
+.aaua2 {
+  width: 300px;
+  text-align: center;
+  background: rgb(224, 224, 78);
+  border: 1px solid blueviolet;
+  border-radius: 6px;
+  margin: 10% auto;
+  color: rgb(43, 4, 80);
+  padding-bottom: 16px;
+}
+
+#aaua {
+  width: 300px;
+  text-align: center;
+  background: rgb(224, 224, 78);
+  border: 1px solid blueviolet;
+  border-radius: 6px;
+  margin: 10% auto;
+  color: rgb(43, 4, 80);
+  padding-top: 16px;
+}
+
+.incident-body {
+  width: 300px;
+  text-align: center;
+  background: rgb(224, 224, 78);
+  border: 1px solid blueviolet;
+  border-radius: 6px;
+  margin: 10% auto;
+  color: rgb(43, 4, 80);
+  padding-bottom: 40px;
+}
+}
