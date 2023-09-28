@@ -139,7 +139,7 @@ body #aaua {
   width: 150px;
 }
 
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
   body {
     background: rgb(231, 190, 137);
     width: 200px;
@@ -200,4 +200,4 @@ body #aaua {
   color: rgb(43, 4, 80);
   padding-bottom: 40px;
 }
-}
+} */
